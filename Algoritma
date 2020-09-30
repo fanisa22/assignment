@@ -1,6 +1,6 @@
 import java.io.*;
 
-public class JavaTugasBR {
+public class LuasSegitiga {
     public static void main(String[] args) throws IOException {
 
         int alas = 0;
