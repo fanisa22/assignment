@@ -9,7 +9,7 @@ import java.util.Scanner;
  *
  * @author fanisa
  */
-public class Kelulusan1 {
+public class NilaiHuruf {
     public static void main(String[] args) {
         // Buat Scanner
         Scanner inp = new Scanner(System.in);
