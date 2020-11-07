@@ -1,0 +1,29 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+
+/**
+ *
+ * @author fanisa
+ */
+public class CobaQueStatis {
+    public static void main(String[] args){
+        Queue Q = new Queue();
+        Q.createEmpty ();
+        Q.printQueue();
+        
+        System.out.println("===============");
+        
+        Q.add("1234", "Fanisa", 64.75);
+        Q.add("1235", "Nur", 64.75);
+        Q.add("1236", "Arifah", 64.75);
+        
+        Q.printQueue();
+        System.out.println("===============");
+        Q.del();
+        Q.del();
+        System.out.println("===============");
+    }
+}
